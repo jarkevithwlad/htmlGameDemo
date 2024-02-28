@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>События 326: Начало</title>
+    <style>
+        body {
+            background-color: rgb(26, 26, 26);
+            margin: 0;
+        }
+
+        .button {
+            height: 170px;
+            border: none;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .button1 {
+            background-color: rgb(56, 56, 56);
+        }
+
+        .button2 {
+            background-color: rgb(56, 56, 56);
+        }
+
+        .container {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: calc(100% - 20px);
+            margin-left: 10px;
+            margin-right: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            max-height: 50%;
+        }
+
+        .buttons {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .buttons>* {
+            margin-right: 5px;
+            margin-left: 5px;
+            flex-grow: 1;
+            font-size: 30px;
+        }
+
+        .buttons>*:first-child {
+            margin-left: 0;
+        }
+
+        .buttons>*:last-child {
+            margin-right: 0;
+        }
+
+        .text_aaa {
+            font-size: 30px;
+            color: #ffffff;
+        }
+
+        .image_settings {
+            background-position: bottom;
+            background-size: contain;
+            width: 100%;
+            height: 69%;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image_settings" style="background-image: url(img/1_nachalo_pole_prosypaetsa.jpg);"></div>
+        
+        <p class="text_aaa">
+            Девушка просыпается посреди поля.
+        </p>
+
+        <div class="buttons">
+            <a class="button button1" href="game2.html">Проснуться</a>
+
+            <!-- <a class="button button2" href="page2.html">Страница 2 </a> -->
+
+            <!-- <a class="button button2" href="page3.html">Страница 3 </a> -->
+        </div>
+    </div>
+</body>
+
+</html>
